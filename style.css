@@ -112,10 +112,8 @@ footer .icon i:first-child{
 
 footer .icon .first{
     position: absolute;
-    margin-right: 15px;
     left: 35px;
     top: 10px;
-    display: inline-block;
     font-size: 11px;
 }
 
@@ -129,6 +127,13 @@ footer .icon .second{
 
 footer .icon .green{
     color: lime;
+}
+
+footer .icon .third{
+    position: absolute;
+    left:70px;
+    top: 10px;
+    font-size: 11px;
 }
 
 

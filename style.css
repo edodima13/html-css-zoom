@@ -12,11 +12,20 @@ body{
 header{
     display: flex;
     justify-content: flex-end;
+    background-color: black;
 }
 
 .view{
+    padding: 3px 6px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+    align-items: center;
     position: relative;
     display: inline-block;
+    background-color: rgba(255,255,255,0.2);
+    color: white;
+    border-radius: 5px;
+    height: 19px;
 }
 
 main{
@@ -25,9 +34,8 @@ main{
 }
 
 .container{
-    border: 2px solid red;
     padding: 0px 80px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     background-color: black;
     flex-grow: 1;
     display: flex;
@@ -47,71 +55,96 @@ main{
 }
 
 .mic-icon{
-    height: 22px;
+    height: 24px;
     display: flex;
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: rgba(0,0,0,0.3) ;
+    background-color: rgba(255,255,255,0.2);
+    color: white;
 }
 
 .mic-icon p{
-    margin: 0;
-    transform: translateY(2px);
+    margin-top: 4px;  
+    padding-right: 4px; 
 }
 
 .mic-icon i{
-    margin-top: 2px;
+    padding: 0 4px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+footer{
+    background-color: rgb(34, 34, 34);
 }
 
 footer nav{
     display: flex;
     justify-content: space-between;
+    color: white;
+    height: 62px;
 }
 
-/*card-cam*/
-
-zz
-main{
-
+footer ul{
+    padding-left: 4px;
+    margin: 0px;
+    margin-bottom: 0;
+    padding-top: 15px;
 }
 
-.toolbar{
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
+footer ul li{
+    font-size: 12px;
+    list-style: none;
 }
 
-
-.icon-box{
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.device-controls{
-    display: flex;
-}
-
-
-
-
-
-
-.webcam-wrapper div{
-    min-height: 150px;
-    border: 3px solid salmon;
-    aspect-ratio: 1.7;
-}
-
-.webcam{
+footer nav .icon{
+    display: inline-block;
+    text-align: center;
     position: relative;
+    padding-right: 30px;
 }
 
-.webcam img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
+footer .icon i:first-child{
+    font-size: 19px;
+    text-align: center;
 }
+
+footer .icon .first{
+    position: absolute;
+    margin-right: 15px;
+    left: 35px;
+    top: 10px;
+    display: inline-block;
+    font-size: 11px;
+}
+
+footer .icon .second{
+    position: absolute;
+    left: 60px;
+    top: 10px;
+    display: inline-block;
+    font-size: 11px;
+}
+
+footer .icon .green{
+    color: lime;
+}
+
+
+footer .icon li i{
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+footer .end-call{
+    background-color: grey;
+    color: red;
+}
+
+.end-call p{
+    transform: translateY(-6px);
+}
+
+
 
